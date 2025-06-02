@@ -2,29 +2,34 @@
 This project explores wintertime air pollution trends in Bradford, UK, focusing on PM2.5 and PM10 pollutant levels and the influence of meteorological conditions and sensor reliability during data collection. The project combines data analysis, visualization, and predictive modeling to better understand pollution dynamics and prepare for high-risk periods.
 
 📊 Project Components
-1. Air Quality Analysis (Analysis.ipynb)
+1. Air Quality Analysis (Analysis.ipynb)  
 Investigates PM2.5 and PM10 levels during winter (Nov–Jan).
+### 📊 Daily PM2.5 Levels vs WHO Limit
+![PM2.5 Daily](images/Hourly average PM levels.png)
+*Daily average PM2.5 concentrations in Bradford (Nov–Jan), compared across stations with WHO limit (15 µg/m³). Multiple exceedances observed.*
 
 Assesses daily trends, diurnal patterns, and pollution spikes.
-
+Includes historical comparison across 2022–2025 winters.
+WHO pollution threshold breaches are visualized and interpreted.
+### 🌙 Diurnal Pattern of PM2.5 and PM10
+![Diurnal Pattern](images/download.png)
+*Hourly average PM levels show late-night and early-morning spikes — likely due to traffic and heating.*
 Evaluates weather influences (wind, humidity, temperature).
 
-Includes historical comparison across 2022–2025 winters.
 
-WHO pollution threshold breaches are visualized and interpreted.
-
-2. Sensor Failure Modeling (Sensor_Failure_Analysis.ipynb)
+3. Sensor Failure Modeling (Sensor_Failure_Analysis.ipynb)
 Detects negative/missing readings caused by sensor drift or weather anomalies.
-
 Models sensor dropout probability using logistic regression (GLM).
-
 Identifies high-risk stations (e.g., Treadwell Mills).
-
 Evaluates environmental causes of sensor unreliability (cold, wind, heat).
 
-3. Presentation (Shreenika_ppt.pptx)
-A clean, visually engaging summary of the project including:
+### 🛰️ Sensor Dropout Risk Map
+![Sensor Dropout](images/dropout.png)
+*Sensor failure risk by location. Treadwell Mills showed the highest average dropout probability (0.65), likely due to weather.*
 
+
+4. Presentation (Shreenika_ppt.pptx)
+A clean, visually engaging summary of the project including:
 Pollution patterns
 
 Weather correlations
