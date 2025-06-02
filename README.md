@@ -5,14 +5,14 @@ This project explores wintertime air pollution trends in Bradford, UK, focusing 
 1. Air Quality Analysis (Analysis.ipynb)  
 Investigates PM2.5 and PM10 levels during winter (Nov–Jan).
 ### 📊 Daily PM2.5 Levels vs WHO Limit
-![PM2.5 Daily](Hourly average PM levels.png)
+![PM2.5 Daily](Hourly_average_PM_levels.png)
 *Daily average PM2.5 concentrations in Bradford (Nov–Jan), compared across stations with WHO limit (15 µg/m³). Multiple exceedances observed.*
 
 Assesses daily trends, diurnal patterns, and pollution spikes.
 Includes historical comparison across 2022–2025 winters.
 WHO pollution threshold breaches are visualized and interpreted.
 ### 🌙 Diurnal Pattern of PM2.5 and PM10
-![Diurnal Pattern](average PM2.5 concentrations.png)
+![Diurnal Pattern](average_PM2.5_concentrations.png)
 *Hourly average PM levels show late-night and early-morning spikes — likely due to traffic and heating.*
 Evaluates weather influences (wind, humidity, temperature).
 
@@ -24,7 +24,7 @@ Identifies high-risk stations (e.g., Treadwell Mills).
 Evaluates environmental causes of sensor unreliability (cold, wind, heat).
 
 ### 🛰️ Sensor Dropout Risk Map
-![Sensor Dropout](Sensor failure risk by location.png)
+![Sensor Dropout](Sensorfailure_risk.png)
 *Sensor failure risk by location. Treadwell Mills showed the highest average dropout probability (0.65), likely due to weather.*
 
 
