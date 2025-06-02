@@ -50,31 +50,20 @@ Data covers Nov 1 – Jan 17 for multiple years (2022–2025).
 
 📈 Key Findings
 PM2.5 exceeded WHO guidelines multiple times, especially in the evening hours.
-
 Wind speed was the strongest inverse influencer on PM levels.
-
 Weekends and holidays show distinct pollution patterns.
-
 Sensor failures are often tied to extreme environmental conditions.
-
 XGBoost models provided strong PM2.5 forecasting with R² values up to 0.69.
 
 🧠 Technologies Used
 Python (Pandas, Seaborn, Sklearn, XGBoost, Statsmodels)
-
 Jupyter Notebooks
-
 Meteostat API
-
 Logistic Regression (GLM)
-
 XGBoost Regression
 
 🚧 Future Work
 Add boundary-layer height, wind direction, and real-time traffic.
-
 Use advanced models like LSTM or Temporal CNNs.
-
 Automate data ingestion, model retraining, and real-time dashboards.
-
 Build alert systems for pollution threshold breaches.
